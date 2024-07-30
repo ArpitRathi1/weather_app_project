@@ -5,3 +5,16 @@
     font-family: sans-serif;
 }
 
+:root{
+    --colorDark1: #112D4E;
+    --colorDark2: #3f72AF;
+    --colorLight1: #DBE2EF;
+    --colorLight2: #F9F7F7;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    color: var(--colorLight2);
+    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);;
+}

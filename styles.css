@@ -71,3 +71,15 @@ h1{
     align-items: center;
 
 }
+
+.grant-location-container{
+    display: none;
+}
+
+.grant-location-container.active{
+    display: flex;
+}
+
+.grant-location-container img {
+    margin-bottom: 2rem;
+}

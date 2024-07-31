@@ -98,3 +98,19 @@ h1{
     margin-bottom: 1.75rem;
     letter-spacing: 0.75px;
 }
+
+.loading-container{
+    display: none;
+}
+
+.loading-container.active{
+    display: flex;
+}
+
+.loading-container p{
+    text-transform: uppercase;
+}
+
+.user-info-container{
+    display: none;
+}

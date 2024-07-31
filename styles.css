@@ -50,3 +50,24 @@ h1{
 .weather-container{
     margin-block: 4rem;
 }
+
+.btn{
+    all: unset;                                 /* To remove all the default properties of a button */
+    /* appearance: none;
+    border: none;
+    outline: none; */
+    color: white;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: var(--colorDark2);
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

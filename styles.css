@@ -130,3 +130,21 @@ h1{
     font-size: 1.5rem;
     font-weight: 200;
 }
+
+.user-info-container img{
+    width: 90px;
+    height: 90px;
+}
+
+.name p{
+    font-size: 2rem;
+}
+.name img{
+    width: 30px;
+    height: 30px;
+}
+
+.user-info-container p[data-temp]{
+    font-size: 2.75rem;
+    font-weight: 700;
+}

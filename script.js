@@ -13,3 +13,27 @@ let currentTab=userTab;//by default
 const API_KEY="e03935d1a4968e4047097d2db1b7b47e";
 currentTab.classList.add("current-tab");
 getfromSessionStorage()
+
+function switchTab(clickedTab){
+    if(clickedTab != currentTab){
+        currentTab.classList.remove("current-tab");
+        currentTab=clickedTab;
+        currentTab.classList.add("current-tab");
+   
+    if(!searchForm.classList.contains("active")){
+        //if search form container is invisible, if yes then make it visible
+        userInfoContainer.classList.remove("active");
+        grantAccessContainer.classList.remove("active");
+        searchForm.classList.add("active");
+    }
+    else{
+        //I was earlier in search weather tab now I want weather tab to be visible
+        searchForm.classList.remove("active");
+        userInfoContainer.classList.remove("active");
+        //now I am in your weather tab I need to display the weather, so let's check local storage first
+        //for coordinates, if we have saved them there.
+        getfromSessionStorage();
+    }
+  } 
+
+}

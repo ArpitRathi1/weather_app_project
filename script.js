@@ -37,3 +37,8 @@ function switchTab(clickedTab){
   } 
 
 }
+
+userTab.addEventListener("click", () => {
+    //pass clicked tab as input paramter
+    switchTab(userTab);
+});

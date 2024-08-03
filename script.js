@@ -130,3 +130,8 @@ function showPosition(position) {
     fetchUserWeatherInfo(userCoordinates);
 
 }
+
+const grantAccessButton = document.querySelector("[data-grantAccess]");
+grantAccessButton.addEventListener("click", getLocation);
+
+const searchInput = document.querySelector("[data-searchInput]");

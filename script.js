@@ -109,3 +109,12 @@ function renderWeatherInfo(weatherInfo) {
     humidity.innerText = `${weatherInfo?.main?.humidity}%`;
     cloudiness.innerText = `${weatherInfo?.clouds?.all}%`;
 }
+
+function getLocation() {
+    if(navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+    else {
+        console.log("No geolocation support");
+    }
+}

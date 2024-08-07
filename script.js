@@ -145,3 +145,8 @@ searchForm.addEventListener("submit", (e) => {
     else 
         fetchSearchWeatherInfo(cityName);
 })
+
+async function fetchSearchWeatherInfo(city) {
+    loadingScreen.classList.add("active");
+    userInfoContainer.classList.remove("active");
+    grantAccessContainer.classList.remove("active");

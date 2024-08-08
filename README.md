@@ -7,3 +7,5 @@ Welcome to the Weather App! This application provides real-time weather informat
 - Real-time weather updates
 - Temperature, humidity, wind speed, and more
 - Search for weather information by city
+
+## Screenshots

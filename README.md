@@ -33,3 +33,10 @@ Welcome to the Weather App! This application provides real-time weather informat
 1. Enter the name of the city you want to check the weather for in the search bar.
 2. Click the "Search" button or press "Enter".
 3. View the weather information displayed on the screen.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Weather API (https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric)

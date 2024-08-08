@@ -56,3 +56,8 @@ Contributions are welcome! Please follow these steps:
    ```sh
    git push origin feature/your-feature-name
 5. Open a pull request.
+
+## Acknowledgments
+
+- Thanks to Weather API for providing the weather data.
+- Special thanks to everyone who contributed to the development of this app.

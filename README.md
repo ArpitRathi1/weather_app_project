@@ -27,3 +27,9 @@ Welcome to the Weather App! This application provides real-time weather informat
 3. Open index.html in your preferred web browser:
    ```sh
    open index.html
+
+## Usage
+
+1. Enter the name of the city you want to check the weather for in the search bar.
+2. Click the "Search" button or press "Enter".
+3. View the weather information displayed on the screen.
